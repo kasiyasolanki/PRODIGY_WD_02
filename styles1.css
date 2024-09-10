@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7cb0ce;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(219, 221, 163, 0.1);
+    padding: 20px;
+}
+
+.display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #8a6363;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c152ba;
+    color: #beb2dc;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #ce8080;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
